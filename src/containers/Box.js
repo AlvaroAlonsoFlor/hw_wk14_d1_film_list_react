@@ -39,7 +39,6 @@ class Box extends Component {
     render() {
         return(
             <div>
-                Hey, I'm a Box!
                 <FilmList data={this.state.data}/>
                 <Button />
             </div>
