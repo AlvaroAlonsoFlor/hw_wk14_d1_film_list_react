@@ -6,7 +6,7 @@ export default class FilmList extends Component {
     render() {
         return(
             <div>
-                <h3>Film List</h3>
+                <h3 className="film-releases">Upcoming Film Releases for UK</h3>
                 <Film />
                 <Film />
                 <Film />
