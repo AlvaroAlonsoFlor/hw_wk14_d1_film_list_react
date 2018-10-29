@@ -1,10 +1,17 @@
 import React, {Component} from 'react';
+import Film from './Film';
 
 export default class FilmList extends Component {
 
     render() {
         return(
-            <h3>I am the FilmList</h3>
+            <div>
+                <h3>Film List</h3>
+                <Film />
+                <Film />
+                <Film />
+
+            </div>
         );
     }
 }
