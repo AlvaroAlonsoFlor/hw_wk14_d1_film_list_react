@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import FilmList from '../components/FilmList';
+import Button from '../components/Button';
 
 class Box extends Component {
 
@@ -8,6 +9,7 @@ class Box extends Component {
             <div>
                 Hey, I'm a Box!
                 <FilmList />
+                <Button />
             </div>
         );
     }
